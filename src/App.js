@@ -23,12 +23,15 @@ import PureComp from './Components/PureComp';
 import ParentComp from './Components/ParentComp';
 import RefsDemo from './Components/RefsDemo';
 import FocusInput from './Components/FocusInput';
+import FRParentInput from './Components/FRParentInput';
+
 function App() {
   return (
     <div className="App">
-      <FocusInput/>
+      <FRParentInput/>
       {/* 
       <RefsDemo/>
+      <FocusInput/>
       <ParentComp/>
       <Table/>
       <FragmentDemo/>
